@@ -37,19 +37,3 @@ protocol ___VARIABLE_ModuleName___InteractorInputProtocol: AnyObject {
     var presenter: ___VARIABLE_ModuleName___InteractorOutputProtocol? { get set }
 }
 
-protocol ___VARIABLE_ModuleName___DataManagerInputProtocol: AnyObject {
-    // INTERACTOR -> DATAMANAGER
-}
-
-protocol ___VARIABLE_ModuleName___RemoteDataManagerInputProtocol: AnyObject {
-    // INTERACTOR -> REMOTEDATAMANAGER
-    var remoteRequestHandler: ___VARIABLE_ModuleName___RemoteDataManagerOutputProtocol? { get set }
-}
-
-protocol ___VARIABLE_ModuleName___RemoteDataManagerOutputProtocol: AnyObject {
-    // REMOTEDATAMANAGER -> INTERACTOR
-}
-
-protocol ___VARIABLE_ModuleName___LocalDataManagerInputProtocol: AnyObject {
-    // INTERACTOR -> LOCALDATAMANAGER
-}

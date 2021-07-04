@@ -12,11 +12,7 @@ class ___VARIABLE_ModuleName___Interactor: ___VARIABLE_ModuleName___InteractorIn
 
     // MARK: Properties
     weak var presenter: ___VARIABLE_ModuleName___InteractorOutputProtocol?
-    var localDatamanager: ___VARIABLE_ModuleName___LocalDataManagerInputProtocol?
-    var remoteDatamanager: ___VARIABLE_ModuleName___RemoteDataManagerInputProtocol?
 
 }
 
-extension ___VARIABLE_ModuleName___Interactor: ___VARIABLE_ModuleName___RemoteDataManagerOutputProtocol {
-    // TODO: Implement use case methods
-}
+
